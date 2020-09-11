@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 import * as firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from './firebase.config';
@@ -21,6 +20,7 @@ function App() {
   // goggle provider
 
   const provider = new firebase.auth.GoogleAuthProvider();
+  
   // fbprovider
 
   const fbProvider = new firebase.auth.FacebookAuthProvider();
